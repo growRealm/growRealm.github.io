@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>2</title>
-    <url>/2024/06/25/2/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2024/06/25/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -22,5 +17,76 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>项目1</title>
+    <url>/2024/06/25/%E5%BE%85%E5%8A%9E%E4%BA%8B%E9%A1%B9/</url>
+    <content><![CDATA[<h1 id="day01"><a href="#day01" class="headerlink" title="day01"></a>day01</h1><ul>
+<li>密码学</li>
+<li>openssl库</li>
+</ul>
+<blockquote>
+<p>项目部署和介绍.md</p>
+<p>第三方库的安装和使用.md</p>
+</blockquote>
+<h3 id="密码学"><a href="#密码学" class="headerlink" title="密码学"></a>密码学</h3><p><a href="https://www.cnblogs.com/xdyixia/p/11528572.html">密码学基础知识博客</a>；</p>
+<blockquote>
+<p><a href="https://coding.imooc.com/class/593.html?mc_marking=e60501fff782e01db090e82863703bc1&mc_channel=bdocpc4&sem=9&utm_source=baidu-pc&utm_medium=sem9&utm_campaign=coding&utm_content=593&utm_term=coding">推荐课程</a>；</p>
+</blockquote>
+<p><a href="https://blog.csdn.net/sunyctf/article/details/127702235">最通俗易懂的讲解HTTPS的加密原理【多图、易懂】_ssl加密原理-CSDN博客</a>；</p>
+<p><a href="https://cloud.tencent.com/developer/article/2418041">https</a>；</p>
+<blockquote>
+<p><a href="https://www.runoob.com/http/http-intro.html">HTTP&#x2F;HTTPS 简介</a>；</p>
+<p><a href="https://blog.csdn.net/qq_45738095/article/details/138919263">超文本是什么？</a>；</p>
+<p><a href="https://www.bilibili.com/video/BV1KY411x7Jp/?spm_id_from=333.337.search-card.all.click&vd_source=7d76c7ebf22aa5010e177e2dbb55761c">HTTPS是什么？加密原理和证书。SSL&#x2F;TLS握手过程</a>；</p>
+</blockquote>
+<h3 id="openssl库"><a href="#openssl库" class="headerlink" title="openssl库"></a>openssl库</h3><p>openssl 是用C语言编写的开源的密码库，加解密时使用。</p>
+<blockquote>
+<p><a href="https://baike.baidu.com/item/openssl/5454803">openssl是什么？</a>；</p>
+<p><a href="https://wenku.csdn.net/column/5h1iuu5waf">第三方库的概念</a>；</p>
+<p><a href="https://blog.csdn.net/zyhse/article/details/108026800">OpenSSL加密算法库使用系列教程_openssl密码算法库怎么用</a>；</p>
+</blockquote>
+<p>公司的用户需求分析书（程序员写）</p>
+<p>项目用户部署手册（给用户看的）</p>
+<p>项目一的应用场景：（只要涉及到网络通信，并且对数据的安全性有要求就可以使用）只要涉及到网络通信数据传输时，就可能会用到这个项目里面的东西（这个项目可以看成另一个项目的子模块。在数据传输的时候，要保证数据的安全性，就要对数据进行加密–&gt;就要用到openssl库</p>
+<h1 id="day02"><a href="#day02" class="headerlink" title="day02"></a>day02</h1><ul>
+<li>git</li>
+</ul>
+<blockquote>
+<p>git.md</p>
+</blockquote>
+<p><a href="https://blog.csdn.net/m0_37467586/article/details/105075965">Tortoisegit+Tortoisegit中文语言包详细安装使用教程(windows版)</a>；</p>
+<p><a href="https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416#0">远程仓库 - 廖雪峰的官方网站 (liaoxuefeng.com)</a></p>
+<h1 id="day03"><a href="#day03" class="headerlink" title="day03"></a>day03</h1><ul>
+<li>UML类图</li>
+<li>序列化工具-protobuf</li>
+</ul>
+<blockquote>
+<p>UML类图.pdf</p>
+<p>序列化-protobuf.md</p>
+</blockquote>
+<p><a href="https://cloud.tencent.com/developer/article/1520442">通过一个完整例子彻底学会protobuf序列化原理</a>；</p>
+<p><a href="https://juejin.cn/post/7057522531179167774?searchId=20240613183519E9C79B79368A92172C18">protobuf-部署到windows上直接使用</a>；</p>
+<p><a href="https://juejin.cn/post/7155399858004688926?searchId=20240613183519E9C79B79368A92172C18">ProtoBuf 基本语法总结</a>；</p>
+<p>protobuf：专门用于数据序列化，序列化就是说在进行网络通信的时候，有可能涉及到跨平台的数据传输，就是主机和主机，它们之间可能并不都是Windows，就算都是Windows也可能有问题，一个32位一个64位。</p>
+<h1 id="day04"><a href="#day04" class="headerlink" title="day04"></a>day04</h1><ul>
+<li>设计模式-工厂模式</li>
+<li>套接字通信</li>
+</ul>
+<blockquote>
+<p>工厂模式-套接字通信.md</p>
+</blockquote>
+<p>0202-解决windows下动态库找不到的问题ev.mp4</p>
+<h1 id="day05"><a href="#day05" class="headerlink" title="day05"></a>day05</h1><ul>
+<li>套接字超时</li>
+<li>共享内存</li>
+</ul>
+<blockquote>
+<p>共享内存.md</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>项目</tag>
+      </tags>
   </entry>
 </search>
